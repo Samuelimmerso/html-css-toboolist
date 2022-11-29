@@ -43,7 +43,7 @@ main{
 
 header.main-header{
     border-radius: 10px 10px 0 0;
-    margin-bottom: 1%;
+    margin-bottom: .2em;
     padding-left: 3em;
 }
 
@@ -76,9 +76,22 @@ div[role="list"]{
     background-color: orange;
     border: 1px solid white;
 }
+
+.magenta-button{
+    color: white;
+    background-color: rgb(137, 22, 52);
+    border: 1px solid white;
+}
+
 .purple-button{
     color: white;
     background-color: fuchsia;
+    border: 1px solid white;
+}
+
+.lime-button{
+    color: white;
+    background-color: limegreen;
     border: 1px solid white;
 }
 
