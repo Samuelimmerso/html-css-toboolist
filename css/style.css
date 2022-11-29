@@ -44,6 +44,7 @@ main{
 header.main-header{
     border-radius: 10px 10px 0 0;
     margin-bottom: 1%;
+    padding-left: 3em;
 }
 
 input{
@@ -54,9 +55,30 @@ input{
     font-weight: bold;
 }
 
+div[role="list"]{
+    border-radius: 0px 0px 10px 10px;
+}
+ /* button color */
 .blue-button{
     color: white;
     background-color: deepskyblue;
+    border: 1px solid white;
+}
+
+.green-button{
+    color: white;
+    background-color: green;
+    border: 1px solid white;
+}
+
+.orange-button{
+    color: white;
+    background-color: orange;
+    border: 1px solid white;
+}
+.purple-button{
+    color: white;
+    background-color: fuchsia;
     border: 1px solid white;
 }
 
@@ -71,6 +93,30 @@ input{
 .bgwhite{
     background-color: white;
 }
+
+/* list */
+
+details {
+    padding: .5em .5em 0;
+    display: inline-block;
+    margin: 1em;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+.true{
+    color: lime;
+}
+
+.false{
+    color: red;
+}
+
+
 
 
 
