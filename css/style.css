@@ -58,7 +58,9 @@ input{
 div[role="list"]{
     border-radius: 0px 0px 10px 10px;
 }
+
  /* button color */
+ 
 .blue-button{
     color: white;
     background-color: deepskyblue;
