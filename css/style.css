@@ -1,0 +1,31 @@
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+    background-color: gainsboro;
+}
+
+header{
+    background-color: white;
+    height:min-content;
+}
+
+
+/* id */
+
+#logo{
+    height: 60px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 45px;
+    vertical-align: bottom;
+}
