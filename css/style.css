@@ -14,7 +14,7 @@ body{
 
 /* header */
 
-header{
+header,nav{
     background-color: white;
     padding: 10px;
 }
@@ -41,10 +41,9 @@ main{
     width: 100%;
 }
 
-header.main-header{
+nav.main-nav{
     border-radius: 10px 10px 0 0;
     margin-bottom: .2em;
-    padding-left: 3em;
 }
 
 input{
@@ -131,6 +130,10 @@ summary {
     color: red;
 }
 
+span{
+    border: 1px solid;
+    border-radius: 50px;
+}
 
 
 
